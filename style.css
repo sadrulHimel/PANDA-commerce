@@ -4,6 +4,7 @@
 
 .orange-bg{
     background-color: #fceae8;
+    border-radius: 15px;
 }
 
 .carousel-item{
@@ -20,3 +21,41 @@
     border: none;
     border-radius: 25px;
 }
+
+
+.cat1{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px gray;
+
+}
+
+.cat2{
+    background-color: orchid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px gray;
+}
+.cat3{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px gray;
+}
+.categories h1{
+
+    color: honeydew;
+    font-size: 35px;
+}
+.categories img{
+    width: 120px;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgb(109, 97, 97);
+}
+
+.card h4{
+    padding-left: 10px;
