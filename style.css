@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
 .container{
     margin-bottom: 100px;
 }
@@ -15,11 +20,13 @@
 }
 
 .buy-now-btn{
+    margin-top: 6px;
     background-color: #ff136f;
     color: white;
     padding: 8px 20px;
     border: none;
     border-radius: 25px;
+    
 }
 
 
@@ -44,6 +51,9 @@
     box-shadow: 8px 8px 20px gray;
 }
 .categories h1{
+    font: outline;
+    
+    font-weight: 600;
 
     color: honeydew;
     font-size: 35px;
@@ -57,5 +67,36 @@
     box-shadow: 5px 5px 25px rgb(109, 97, 97);
 }
 
-.card h4{
-    padding-left: 10px;
+.card-title{
+    font-weight: bold;
+}
+
+.email-input{
+    padding: 3px 2px;
+    border: 3px solid #ff136f;
+    border-radius: 35px;
+    background-color: rgb(236, 218, 228);
+
+}
+
+.subscribe{
+
+    
+
+    background-color: #fceae8;
+    border-radius: 15px;
+    padding: 30px 400px;
+
+
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.shop-now{
+    float: right;
+}
+
